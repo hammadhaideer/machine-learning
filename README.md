@@ -6,15 +6,11 @@
 
 Classical machine learning built from the math up. Every algorithm gets implemented properly — not just `model.fit()` calls. This repo covers the full ML workflow: data handling, model building, evaluation, and everything in between.
 
----
-
 ## About
 
 There is a difference between knowing how to use a library and understanding what the library is doing. This repo aims to close that gap. Algorithms are explained from first principles, then implemented in scikit-learn, then evaluated on real datasets.
 
 By the end of this repo, the ML workflow should feel like second nature — from raw data to trained, evaluated model.
-
----
 
 ## Notebooks
 
@@ -33,8 +29,6 @@ By the end of this repo, the ML workflow should feel like second nature — from
 
 Status: ✅ Complete · 🔄 In Progress · ⏳ Planned
 
----
-
 ## Structure
 
 ```
@@ -49,8 +43,6 @@ machine-learning/
 └── .gitignore
 ```
 
----
-
 ## Stack
 
 - Python 3.11
@@ -59,8 +51,6 @@ machine-learning/
 - Pandas
 - Matplotlib
 - Seaborn
-
----
 
 ## Setup
 
@@ -71,7 +61,6 @@ pip install -r requirements.txt
 jupyter notebook
 ```
 
----
 
 ## Contact
 
