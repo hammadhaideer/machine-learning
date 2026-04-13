@@ -4,7 +4,7 @@
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-1.4-orange?style=flat-square&logo=scikitlearn&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square)
 
-Classical machine learning built from the math up. Every algorithm gets implemented properly — not just `model.fit()` calls. This repo covers the full ML workflow: data handling, model building, evaluation, and everything in between.
+Classical machine learning built from the math up. Every algorithm gets implemented properly - not just `model.fit()` calls. This repo covers the full ML workflow: data handling, model building, evaluation, and everything in between.
 
 ## About
 
@@ -65,7 +65,7 @@ jupyter notebook
 ## Contact
 
 **Hammad Haideer**
-Master's student in Computer Science — Xinjiang University
+Master's student in Computer Science - Xinjiang University
 Research: Anomaly Detection · NLP
 
 [LinkedIn](https://www.linkedin.com/in/hammadhaideer) · [Email](mailto:hammadhaideerr@gmail.com)
