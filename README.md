@@ -1,74 +1,71 @@
-<div align="center">
+# machine-learning
 
-# 🤖 Machine Learning
+![Python](https://img.shields.io/badge/Python-3.11-blue?style=flat-square&logo=python&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-1.4-orange?style=flat-square&logo=scikitlearn&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square)
 
-[![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-[![scikit-learn](https://img.shields.io/badge/scikit--learn-Latest-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
-[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white)](https://jupyter.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
-
-*Hands-on machine learning notebooks — theory explained, algorithms implemented, results visualized.*
-
-</div>
+Classical machine learning built from the math up. Every algorithm gets implemented properly — not just `model.fit()` calls. This repo covers the full ML workflow: data handling, model building, evaluation, and everything in between.
 
 ---
 
-## 👤 About This Repository
+## About
 
-Built by a Master's CS student (Anomaly Detection & NLP) at Xinjiang University. Every notebook pairs mathematical intuition with clean scikit-learn implementations and real dataset experiments.
+There is a difference between knowing how to use a library and understanding what the library is doing. This repo aims to close that gap. Algorithms are explained from first principles, then implemented in scikit-learn, then evaluated on real datasets.
+
+By the end of this repo, the ML workflow should feel like second nature — from raw data to trained, evaluated model.
 
 ---
 
-## 📂 Repository Structure
+## Notebooks
+
+| # | Topic | Status |
+|---|-------|--------|
+| 01 | The ML Landscape: Types, Terminology, Workflow | ⏳ Planned |
+| 02 | Data Preprocessing: Scaling, Encoding, Missing Values | ⏳ Planned |
+| 03 | Linear Regression: From math to scikit-learn | ⏳ Planned |
+| 04 | Logistic Regression and Classification | ⏳ Planned |
+| 05 | Decision Trees and Random Forests | ⏳ Planned |
+| 06 | Support Vector Machines | ⏳ Planned |
+| 07 | K-Means and Clustering | ⏳ Planned |
+| 08 | Gradient Boosting: XGBoost and LightGBM | ⏳ Planned |
+| 09 | Model Evaluation: Metrics, Cross-Validation, Bias-Variance | ⏳ Planned |
+| 10 | Pipelines and Feature Engineering | ⏳ Planned |
+
+Status: ✅ Complete · 🔄 In Progress · ⏳ Planned
+
+---
+
+## Structure
 
 ```
 machine-learning/
-│
-├── 01_fundamentals/
-│   ├── 01_ml_landscape.ipynb
-│   ├── 02_data_preprocessing.ipynb
-│   └── 03_feature_engineering.ipynb
-│
-├── 02_supervised/
-│   ├── 01_linear_regression.ipynb
-│   ├── 02_logistic_regression.ipynb
-│   ├── 03_decision_trees.ipynb
-│   ├── 04_random_forest.ipynb
-│   ├── 05_svm.ipynb
-│   └── 06_gradient_boosting_xgboost.ipynb
-│
-├── 03_unsupervised/
-│   ├── 01_kmeans_clustering.ipynb
-│   ├── 02_hierarchical_clustering.ipynb
-│   ├── 03_pca_dimensionality_reduction.ipynb
-│   └── 04_dbscan.ipynb
-│
-├── 04_model_evaluation/
-│   ├── 01_metrics_classification.ipynb
-│   ├── 02_metrics_regression.ipynb
-│   └── 03_cross_validation.ipynb
-│
-├── 05_projects/
-└── resources.md
+├── notebooks/
+│   ├── 01_ml_landscape/
+│   ├── 02_preprocessing/
+│   ├── 03_linear_regression/
+│   └── ...
+├── requirements.txt
+├── resources.md
+└── .gitignore
 ```
 
 ---
 
-## 📓 Notebooks
+## Stack
 
-| # | Topic | Algorithm | Dataset | Status |
-|---|-------|-----------|---------|--------|
-| 01 | Supervised Learning | Linear Regression | Boston Housing | ⏳ |
-| 02 | Classification | Logistic Regression | Iris | ⏳ |
-| 03 | Ensemble Methods | Random Forest | Titanic | ⏳ |
-| 04 | Clustering | K-Means | Custom | ⏳ |
+- Python 3.11
+- scikit-learn
+- NumPy
+- Pandas
+- Matplotlib
+- Seaborn
 
 ---
 
-## 🚀 Getting Started
+## Setup
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/machine-learning.git
+git clone https://github.com/hammadhaideer/machine-learning
 cd machine-learning
 pip install -r requirements.txt
 jupyter notebook
@@ -76,15 +73,10 @@ jupyter notebook
 
 ---
 
-## 🛠️ Tech Stack
+## Contact
 
-`Python` · `NumPy` · `Pandas` · `Scikit-learn` · `Matplotlib` · `Seaborn` · `XGBoost`
+**Hammad Haideer**
+Master's student in Computer Science — Xinjiang University
+Research: Anomaly Detection · NLP
 
----
-
-## 🤝 Connect
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat&logo=linkedin)](https://linkedin.com/in/YOUR_PROFILE)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=flat&logo=github)](https://github.com/YOUR_USERNAME)
-
-> ⭐ Star this repo if you find it useful!
+[LinkedIn](https://www.linkedin.com/in/hammadhaideer) · [Email](mailto:hammadhaideerr@gmail.com)
