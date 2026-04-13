@@ -64,5 +64,4 @@ jupyter notebook
 
 ## Contact
 
-**Hammad Haideer**
 [LinkedIn](https://www.linkedin.com/in/hammadhaideer) · [Email](mailto:hammadhaideerr@gmail.com)
